@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Seus Dados: </h1>
+    <form action="#" method="post">
+        <label for="informacoes">Nome:</label><br>
+        <input required ="text" id="informacoes" name="informacoes"> <br>
+
+
+        <label for="password">Senha:</label><br>
+        <input required type="text"  id="senha" name="senha"><br>
+
+
+        <label for="email">Email:</label><br>
+        <input required type="text" id="email" name="email"><br>
+
+        <h4> <label>Escolha 3 áreas onde tem mais curiosidades:</label></h4> <br>
+      
+        <input type="checkbox" id="opcao1" name="opcao1" value="opcao1">
+        <label for="opcao1">HTML e CSS </label><br>
+
+
+        <input type="checkbox" id="opcao2" name="opcao2" value="opcao2">
+        <label for="opcao2">TypScript</label><br>
+
+        <input type="checkbox" id="opcao3" name="opcao3" value="opcao3">
+        <label for="opcao3">JavaScript</label><br>
+
+
+        <input type="checkbox" id="opcao4" name="opcao4" value="opcao4">
+        <label for="opcao4">PHP/MySQL</label><br>
+
+        <input type="checkbox" name="opcao5" id="opcao5" value="opcao5">
+        <label for="opcao5">ReactJS</label>
+
+        
+        <h4>Qual seu sexo:</h4>
+        <p>Ou não se identica?</p>
+
+        <input type="radio"  id="id_genero" name="nome_genero">
+        <label for="id_genero">Masculino</label><br>
+        
+        <input type="radio"  id="id_genero" name="nome_genero">
+        <label for="id_genero">Feminino</label><br>
+
+        <input type="radio"   id="sem_identificacao" name="nome_genero">
+        <label for="sem_identificacao">Elo. Prefiro não me identificar</label><br>
+
+        <br>
+
+        <br>
+        <label for="date">Data</label>
+        <input type="date" name="nome_data" id="id_data">
+
+        <label for="id_tempo">Horário de chegada</label>
+        <input type="time" id="id_chegada" name="nome_chegada"><br>
+        <br>
+        
+        <br>
+        <label for="id_arquivo">Selecione uma foto</label>
+        <input type="file" name="nome_arquivo" id="id_arquivo"><br>
+
+
+
+        <br>
+        <label for="id_cidades">Selecione uma cidade</label>
+        <select name="nome_cidades" id="id_cidades">
+            <option value="fortaleza">Fortaleza</option>
+            <option value="recife">Recife</option>
+            <option value="rio-de-janeiro">Rio de Janeiro</option>
+            <option value="sao-paulo">São Paulo</option>
+            
+        </select>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+        
+
+        
+        <br>
+        
+        <h4><label for="">Qual tipo de aula você prefere :</label></h4>
+        <input type="checkbox" id="aulaon" name="aulaon" value="aulaon">
+        <label for="aulaon">Online</label><br>
+
+        <input type="checkbox" id="aulpapr" name="aulpapr" value="aulpapr">
+        <label for="aulpapr">Presencial</label><br>
+        
+        <button onclick="validar()" >Enviar</button>  
+        <input type="reset" value="limpar">
+    
+    
+    
+    
+    </form>
+
+    
+</body>
+</html>
